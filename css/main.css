@@ -21,8 +21,16 @@ body {
   margin: 0;
 }
 
+header {
+  text-align: center;
+}
+
 h1 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+nav ul {
+  list-style-type: none;
 }
 
 @media only screen and (min-width: 25em) {
