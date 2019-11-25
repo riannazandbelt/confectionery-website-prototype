@@ -23,14 +23,30 @@ body {
 
 header {
   text-align: center;
+  background-color: #18294f;
+  color: #fff
 }
 
 h1 {
   font-family: 'Patua One', cursive;
+  margin: 0;
 }
 
 nav ul {
   list-style-type: none;
+  padding-bottom: 1em;
+  line-height: 2;
+  padding-left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: .5em;
+}
+
+nav a:hover {
+  background-color: #6d8ff0;
 }
 
 @media only screen and (min-width: 25em) {
