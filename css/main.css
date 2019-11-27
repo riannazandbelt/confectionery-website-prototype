@@ -60,6 +60,18 @@ main {
   color: #fff;
 }
 
+main a {
+  text-decoration: none;
+  color: #fff;
+  padding: .5em;
+  margin-left: 1em;
+}
+
+main a:hover {
+  background-color: #18294f;
+  border-radius: 8px;
+}
+
 h1 {
   padding-top: .5em;
 }
