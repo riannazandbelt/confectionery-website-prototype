@@ -49,6 +49,11 @@ nav a:hover {
   background-color: #6d8ff0;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 @media only screen and (min-width: 25em) {
 
 
