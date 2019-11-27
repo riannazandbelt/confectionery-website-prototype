@@ -55,6 +55,12 @@ img {
   width: 100%;
 }
 
+.popcorn,
+.truffle,
+.cupcake {
+  margin-top: 1em;
+}
+
 main {
   background-color: #6d8ff0;
   color: #fff;
@@ -72,6 +78,7 @@ main a:hover {
   border-radius: 8px;
 }
 
+}
 h1 {
   padding-top: .5em;
 }
@@ -90,11 +97,6 @@ h4 {
 
 p {
   font-family: 'Noto Serif', serif;
-}
-
-p:last-child {
-  margin: 0;
-  padding-bottom: 1em;
 }
 
 footer {
@@ -116,6 +118,11 @@ footer h4 {
   h3,
   p {
     padding: 0 1rem;
+  }
+
+  .icon {
+    max-width: 33.3333%;
+    margin: 0 auto;
   }
 
 }
