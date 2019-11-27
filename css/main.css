@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Noto Serif", sans-serif;
   margin: 0;
 }
 
@@ -38,6 +38,7 @@ nav ul {
   line-height: 2;
   padding-left: 0;
   margin-bottom: 0;
+  font-family: Heebo, sans-serif;
 }
 
 nav a {
@@ -69,8 +70,10 @@ main {
 main a {
   text-decoration: none;
   color: #fff;
-  padding: .5em;
+  padding: .5em .75em;
   margin-left: 1em;
+  font-family: Heebo, sans-serif;
+  font-weight: bold;
 }
 
 main a:hover {
@@ -86,7 +89,7 @@ h1 {
 h2,
 h3,
 h4 {
-  font-family: 'Heebo', sans-serif;
+  font-family: Heebo, sans-serif;
 }
 
 h4 {
@@ -96,7 +99,7 @@ h4 {
 }
 
 p {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 footer {
