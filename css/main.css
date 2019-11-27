@@ -30,6 +30,7 @@ header {
 h1 {
   font-family: "Noto Serif", sans-serif;
   margin: 0;
+  padding-top: .5em;
 }
 
 nav ul {
@@ -59,7 +60,7 @@ img {
 .popcorn,
 .truffle,
 .cupcake {
-  margin-top: 1em;
+  padding-top: 2.5em;
 }
 
 main {
@@ -70,20 +71,17 @@ main {
 main a {
   text-decoration: none;
   color: #fff;
-  padding: .5em .75em;
-  margin-left: 1em;
+  padding: .3em .75em;
+  margin: 1em;
   font-family: Heebo, sans-serif;
   font-weight: bold;
+  border: 3px solid #18294f;
+  border-radius: 8px;
 }
 
 main a:hover {
   background-color: #18294f;
   border-radius: 8px;
-}
-
-}
-h1 {
-  padding-top: .5em;
 }
 
 h2,
@@ -128,11 +126,18 @@ footer h4 {
     margin: 0 auto;
   }
 
+  main p {
+    padding-bottom: 1.3rem;
+    font-size: .95rem;
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
 
-}
+  h3 {
+    font-size: 1.4rem;
+  }
 
 }
 
@@ -143,7 +148,23 @@ footer h4 {
     line-height: 1.4;
   }
 
-}
+  nav li {
+    display: inline-block;
+  }
+
+  .store {
+    width: 40%;
+  }
+
+  section h2,
+  section p {
+    width: 55%;
+  }
+
+  .welcome {
+    display: inline-block;
+  }
+
 
 @media only screen and (min-width: 60em) {
 
