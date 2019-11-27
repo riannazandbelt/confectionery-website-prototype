@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-  font-family: 'Patua One', cursive;
+  font-family: 'Heebo', sans-serif;
   margin: 0;
 }
 
@@ -37,6 +37,7 @@ nav ul {
   padding-bottom: 1em;
   line-height: 2;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 nav a {
@@ -45,7 +46,7 @@ nav a {
   padding: .5em;
 }
 
-nav a:hover {
+nav li:hover {
   background-color: #6d8ff0;
 }
 
@@ -54,9 +55,62 @@ img {
   width: 100%;
 }
 
+main {
+  background-color: #6d8ff0;
+  color: #fff;
+}
+
+h1 {
+  padding-top: .5em;
+}
+
+h2,
+h3,
+h4 {
+  font-family: 'Heebo', sans-serif;
+}
+
+h4 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 1.125rem;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+}
+
+p:last-child {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+footer {
+  background-color: #18294f;
+  text-align: center;
+}
+
+footer h4 {
+  padding-top: 1em;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .placeholder {
+    display: none;
+  }
+
+  h2,
+  h3,
+  p {
+    padding: 0 1rem;
+  }
+
+}
+
 @media only screen and (min-width: 25em) {
 
-
+}
 
 }
 
