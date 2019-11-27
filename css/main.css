@@ -183,16 +183,16 @@ footer h4 {
     display: flex;
   }
 
-.one,
-.two,
-.three,
-.four {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-}
+  .one,
+  .two,
+  .three,
+  .four {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
   .img-flex {
     width: 300px;
@@ -216,6 +216,10 @@ footer h4 {
   .one .shop {
     padding-left: 0;
     margin-left: 0;
+  }
+
+  .products a {
+    text-align: center;
   }
 
 
