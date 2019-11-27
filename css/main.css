@@ -131,6 +131,16 @@ footer h4 {
     font-size: .95rem;
   }
 
+  .welcome p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .discover h2,
+  .discover p {
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -154,16 +164,64 @@ footer h4 {
 
   .store {
     width: 40%;
+    padding: 1rem 0 0 1rem;
   }
 
-  section h2,
-  section p {
+  .welcome h2,
+  .welcome p {
     width: 55%;
+    margin: 0;
+    padding-top: 1rem;
   }
 
   .welcome {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .products {
+    display: flex;
+  }
+
+.one,
+.two,
+.three,
+.four {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+  .img-flex {
+    width: 300px;
+    max-height: 165px;
+    margin: 0;
+  }
+
+  .popcorn,
+  .truffle,
+  .cupcake {
+    padding-top: 0;
+    padding-left: 1rem;
+  }
+
+  .one {
+    padding-left: 1rem;
+  }
+
+  .one h3,
+  .one p,
+  .one .shop {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+
+
+
+}
 
 
 @media only screen and (min-width: 60em) {
