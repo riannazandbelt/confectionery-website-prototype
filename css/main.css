@@ -186,17 +186,18 @@ footer h4 {
   .products {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .one,
   .two,
   .three,
   .four {
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
   }
 
   .img-flex {
@@ -208,7 +209,12 @@ footer h4 {
   .two,
   .three,
   .four {
-    padding-left: 1rem;
+    margin-left: 1em;
+  }
+
+  .two,
+  .four {
+    margin-right: 1em;
   }
 
   .popcorn,
@@ -241,11 +247,6 @@ footer h4 {
 
   .products a {
     text-align: center;
-  }
-
-  .two,
-  .four {
-    padding-right: 1em;
   }
 
 }
@@ -287,12 +288,28 @@ footer h4 {
     color: #000;
   }
 
+  footer nav a {
+    color: #fff;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four {
+    width: 25%;
+  }
+
+  .two,
+  .four {
+    margin-right: 0;
   }
 
 }
