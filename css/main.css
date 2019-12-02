@@ -50,7 +50,6 @@ nav a {
 
 nav li:hover {
   background-color: #6d8ff0;
-  border-radius: 8px;
 }
 
 img {
@@ -161,6 +160,10 @@ footer h4 {
 
   nav li {
     display: inline-block;
+  }
+
+  nav li:hover {
+    border-radius: 8px;
   }
 
   .store {
