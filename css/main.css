@@ -185,22 +185,22 @@ footer h4 {
 
   .products {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .one,
   .two,
   .three,
   .four {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between
   }
 
   .img-flex {
-    width: 300px;
-    max-height: 165px;
+    width: 100%;
     margin: 0;
   }
 
@@ -230,7 +230,9 @@ footer h4 {
   .four p,
   .four .shop {
     padding-left: 0;
+    padding-right: 0;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .products p {
@@ -241,8 +243,10 @@ footer h4 {
     text-align: center;
   }
 
-
-
+  .two,
+  .four {
+    padding-right: 1em;
+  }
 
 }
 
@@ -252,6 +256,35 @@ footer h4 {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  header {
+    background-color: transparent;
+    position: relative;
+    max-height: 20em;
+    overflow: hidden;
+  }
+
+  .placeholder {
+    display: block;
+    width: 100%;
+  }
+
+  .navigation {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    color: #000;
+  }
+
+  nav li {
+    border: 3px solid #18294f;
+    border-radius: 8px;
+  }
+
+  nav a {
+    color: #000;
   }
 
 }
