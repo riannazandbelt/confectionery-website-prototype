@@ -45,7 +45,8 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #fff;
-  padding: .5em;
+  padding: .2em;
+  display: block;
 }
 
 nav a:hover {
@@ -137,6 +138,10 @@ footer h4 {
     font-size: .95rem;
   }
 
+  .welcome {
+    color: #18294f
+  }
+
   .welcome p {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -182,6 +187,7 @@ footer h4 {
     width: 100%;
     margin: 0;
     padding-top: 1rem;
+    color: #fff;
   }
 
   .welcome {
@@ -239,6 +245,17 @@ footer h4 {
     margin-right: 0;
   }
 
+  .one p,
+  .two p,
+  .three p,
+  .four p {
+    margin: 0 auto;
+  }
+
+  .shop {
+    margin-top: 0;
+  }
+
   .products p {
     flex-grow: 1;
   }
@@ -263,6 +280,10 @@ footer h4 {
     overflow: hidden;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
   .placeholder {
     display: block;
     width: 100%;
@@ -271,7 +292,7 @@ footer h4 {
   .navigation {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 10%;
     transform: translateX(-50%);
     color: #000;
   }
