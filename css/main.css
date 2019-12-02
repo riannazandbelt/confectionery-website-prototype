@@ -52,9 +52,15 @@ nav a:hover {
   background-color: #6d8ff0;
 }
 
-img {
+.store {
   display: block;
   width: 100%;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  margin: 0;
 }
 
 .popcorn,
@@ -202,11 +208,6 @@ footer h4 {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 1em;
-  }
-
-  .img-flex {
-    width: 100%;
-    margin: 0;
   }
 
   .two,
