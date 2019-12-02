@@ -24,7 +24,7 @@ body {
 header {
   text-align: center;
   background-color: #18294f;
-  color: #fff
+  color: #fff;
 }
 
 h1 {
@@ -48,7 +48,7 @@ nav a {
   padding: .5em;
 }
 
-nav li:hover {
+nav a:hover {
   background-color: #6d8ff0;
 }
 
@@ -162,7 +162,7 @@ footer h4 {
     display: inline-block;
   }
 
-  nav li:hover {
+  nav a:hover {
     border-radius: 8px;
   }
 
@@ -201,18 +201,12 @@ footer h4 {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 1em;
   }
 
   .img-flex {
     width: 100%;
     margin: 0;
-  }
-
-  .one,
-  .two,
-  .three,
-  .four {
-    margin-left: 1em;
   }
 
   .two,
@@ -282,9 +276,10 @@ footer h4 {
     color: #000;
   }
 
-  nav li {
+  nav a {
     border: 3px solid #18294f;
     border-radius: 8px;
+    color: #000;
   }
 
   nav a {
