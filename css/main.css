@@ -50,6 +50,7 @@ nav a {
 
 nav li:hover {
   background-color: #6d8ff0;
+  border-radius: 8px;
 }
 
 img {
@@ -163,19 +164,22 @@ footer h4 {
   }
 
   .store {
-    width: 40%;
+    width: 100%;
     padding: 1rem 0 0 1rem;
   }
 
   .welcome h2,
   .welcome p {
-    width: 55%;
+    width: 100%;
     margin: 0;
     padding-top: 1rem;
   }
 
   .welcome {
     display: flex;
+  }
+
+  .coco {
     flex-wrap: wrap;
   }
 
@@ -200,22 +204,37 @@ footer h4 {
     margin: 0;
   }
 
+  .one,
+  .two,
+  .three,
+  .four {
+    padding-left: 1rem;
+  }
+
   .popcorn,
   .truffle,
   .cupcake {
     padding-top: 0;
-    padding-left: 1rem;
-  }
-
-  .one {
-    padding-left: 1rem;
   }
 
   .one h3,
   .one p,
-  .one .shop {
+  .one .shop,
+  .two h3,
+  .two p,
+  .two .shop,
+  .three h3,
+  .three p,
+  .three .shop,
+  .four h3,
+  .four p,
+  .four .shop {
     padding-left: 0;
     margin-left: 0;
+  }
+
+  .products p {
+    flex-grow: 1;
   }
 
   .products a {
